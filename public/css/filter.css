@@ -1,0 +1,42 @@
+.tax-info {
+     display: none;
+}
+
+.filter-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-width: 0;
+}
+
+.filter {
+    min-width: 75px;
+    text-align: center;
+    margin-top: 1rem;
+    opacity: 0.7;
+    gap: 2;
+}
+
+.filter p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.filter:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/* Tax toggle remains visible */
+.tax-toggle {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top:1rem;
+    margin-left: 3rem;
+    height: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,164 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+
+
+ .navbar{
+    height: 5rem ;
+    background-color: white !important;
+    opacity: 1 !important;
+    z-index: 1050;
+ }
+
+ .navbar-collapse {
+    background-color: white !important;
+}
+ .fa-compass{
+    color : #fe424d;
+    font-size: 2rem;
+ }
+
+ .nav-link{
+    color : #222222 !important;
+ }
+
+
+
+ .f-info-links a{
+    text-decoration: none;
+    color: #222222;
+ }
+
+ .f-info-links a:hover{
+    text-decoration: underline;
+ }
+
+ .f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+ }
+ .f-info{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly;
+    height: 8rem;
+    background-color: #ebebeb ;
+ }
+
+
+
+ .listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+ }
+
+ .card-img-top{
+    border-radius:1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+ }
+
+ .card-body{
+    padding: 0 !important;
+ }
+ .card-text{
+    font-weight: 400 !important;
+ }
+
+ .listing-list{
+    text-decoration: none;
+ }
+
+
+ .card-img-overlay{
+    opacity: 0;
+ }
+ .card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+ }
+
+
+ .add-btn{
+    background-color: #fe424d;
+    border: none !important;
+ }
+
+
+
+ .edit-btn{
+    background-color: #fe424d;
+    border: none !important;
+ }
+
+
+ .show-img{
+    height: 30vh;
+ }
+ .btns{
+    display: flex;
+ }
+
+ .show-card{
+    padding-left: 0;
+    padding-right: 0;
+ }
+
+
+
+ .hero{
+    height:90vh;
+    background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.hero .container{
+    position:relative;
+    z-index:2;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.fa-2x,
+.fa-3x{
+    color:#fe424d;
+}
+
+section{
+    margin-top:70px;
+}
+
+/*map*/
+#map {
+   height: 400px;
+   width: 80vh;
+}
